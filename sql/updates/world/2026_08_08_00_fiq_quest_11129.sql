@@ -5,7 +5,7 @@
 -- 1. Clean up broken and incorrect loot bindings for the meat (ID 33009)
 DELETE FROM item_loot_template WHERE Entry = 33009;
 DELETE FROM creature_loot_template WHERE Item = 33009;
-DELETE FROM creature_questitem WHERE ItemId = 33009; 
+DELETE FROM creature_questitem WHERE ItemId = 33009;
 
 -- 2. Grant official quest loot permission for actual Mulgore birds
 -- Using UPSERT construction to prevent PRIMARY KEY conflicts (Duplicate entry)
