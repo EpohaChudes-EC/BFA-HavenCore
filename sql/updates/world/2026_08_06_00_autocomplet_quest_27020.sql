@@ -1,1 +1,0 @@
-DELETE FROM `quest_objectives` WHERE `ID` = 266148 AND `QuestID` = 27020;
